@@ -1,0 +1,6 @@
+.spacer {
+  height: var(--spacer-height);
+}
+.divider {
+  border-top: .5px solid #222222;
+}

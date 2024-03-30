@@ -1,0 +1,33 @@
+form.apple {
+  --field-height: 3em;
+}
+
+form.apple .fields_name {
+  margin-top: var(--spacer-height);
+  margin-bottom: calc(var(--spacer-height) * .5);
+  padding: 0 var(--padding-size-2);
+  font-size: smaller;
+  opacity: .5;
+}
+
+form.apple .fields {
+  display: block;
+  background: var(--content-bg);
+  padding: 0 var(--padding-size-2);
+  border-radius: .5rem;
+}
+
+form.apple input {
+  height: var(--field-height);
+}
+
+form.apple .field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+form.apple .field input {
+  margin-left: 1rem;
+  flex: 1;
+  text-align: right;
+}

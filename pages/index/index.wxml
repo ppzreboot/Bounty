@@ -1,1 +1,22 @@
-<view>{{hello}} on {{date}}</view>
+<form class="apple">
+  <view class="fields">
+    <view class="field">
+      <label>普通任务</label>
+      <input value=">" />
+    </view>
+    <view class="divider" />
+    <input placeholder="标题" name="title" />
+    <view class="divider" />
+    <input placeholder="副标题" name="details" />
+  </view>
+  <view class="fields_name">赏金</view>
+  <view class="fields">
+    <view class="field">
+      <label>赏金</label>
+      <input name="bounty" placeholder="输入赏金" />
+    </view>
+    <view class="divider" />
+    <view class="divider" />
+    <input name="bounty-details" placeholder="赏金备注" />
+  </view>
+</form>
