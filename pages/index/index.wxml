@@ -1,0 +1,1 @@
+<view>{{hello}} on {{date}}</view>
